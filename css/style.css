@@ -1,0 +1,33 @@
+/* goooglefonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.hover-color:hover{
+    color: #017fe4;
+    border-bottom: 1px solid #017fe4;
+}
+
+@media (max-width: 556px) { 
+    .hover-color:hover{
+        border-bottom: none !important;
+    }
+ }
+.footer-hover:hover{
+    color: #017fe4;
+}
+
+.circle-icon {
+    /* background: #ffc0c0; */
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    
+}
